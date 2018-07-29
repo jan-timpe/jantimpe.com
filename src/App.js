@@ -1,21 +1,63 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './img/jt-mark.svg';
 
-class App extends Component {
+
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Jan Timpe</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div style={styles.container}>
+        <nav style={styles.navigationContainer}>
+          <div style={styles.left}>
+            <img src={logo} alt="JT logo" style={styles.logo}/>
+          </div>
+          <div style={styles.right}>
+            <ul style={styles.navigationItems}>
+              <li style={styles.navigationItem}>
+                about
+              </li>
+              <li style={styles.navigationItem}>
+                projects
+              </li>
+              <li style={styles.navigationItem}>
+                contact
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     );
   }
 }
 
-export default App;
+const styles = {
+  container: {
+    maxWidth: 1068,
+    margin: '0px auto',
+    padding: 12
+  },
+  navigationContainer: {
+    fontFamily: 'monospace',
+    color: '#fff',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  logo: {
+    width: 44
+  },
+  navigationItems: {
+    listStyleType: 'none',
+  },
+  left: {
+    flex: 1
+  },
+  right: {
+    flex: 1,
+    textAlign: 'right'
+  },
+  navigationItem: {
+    padding: '0px 12px',
+    display: 'inline-block'
+  }
+}

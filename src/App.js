@@ -12,6 +12,7 @@ import './App.css'
 
 import Header from './components/Header'
 import Section from './components/Section'
+import LiftList from './components/LiftList'
 
 export default class App extends Component {
   render() {
@@ -24,40 +25,22 @@ export default class App extends Component {
           { href: '#contact', text: 'contact' }
         ]}>
           <h1>Jan Timpe</h1>
-          <p>Software engineer, Fayetteville, AR</p>
+          <p>Software engineer, Northwest Arkansas</p>
         </Header>
 
 
         <Section id="about" className="purple-bg">
           <h2>about</h2>
-            <p>I'm Jan, a web and mobile application developer currently pursuing a degree in Computer Science from the University of Arkansas. My life revolves around baseball, code, heavy metal, and lifting weights.</p>
+            <p>I'm Jan, a web and mobile application developer. I graduated from the University of Arkansas in 2018 with a Bachelors of Science in Computer Science and a minor in Math. Currently, I work as an Associate Mobile Developer at J.B. Hunt. My life very heavily revolves around baseball, code, heavy metal, and lifting weights.</p>
 
-            <div className="flex-container">
-              <div className="stat-card flex-item">
-                <span className="title">squat</span>
-                <span className="value">315</span>
-              </div>
-              <div className="stat-card flex-item">
-                <span className="title">bench press</span>
-                <span className="value">235</span>
-              </div>
-              <div className="stat-card flex-item">
-                <span className="title">overhead press</span>
-                <span className="value">145</span>
-              </div>
-              <div className="stat-card flex-item">
-                <span className="title">snatch</span>
-                <span className="value">165</span>
-              </div>
-              <div className="stat-card flex-item">
-                <span className="title">deadlift</span>
-                <span className="value">385</span>
-              </div>
-              <div className="stat-card flex-item">
-                <span className="title">clean and jerk</span>
-                <span className="value">215</span>
-              </div>
-            </div>
+            <LiftList lifts={[
+              { title: 'squat', value: 315 },
+              { title: 'bench press', value: 235 },
+              { title: 'overhead press', value: 145 },
+              { title: 'snatch', value: 165 },
+              { title: 'deadlift', value: 385 },
+              { title: 'clean and jerk', value: 215 },
+            ]}/>
 
             <iframe title="Spotify player" src="https://open.spotify.com/embed/user/1237272048/playlist/6uj7glncPio4gEztTyM7pA" frameborder="0" allowtransparency="true" className="spotify-player"></iframe>
         </Section>

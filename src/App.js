@@ -17,7 +17,7 @@ export default class App extends Component {
           <div className="center">
             <div className="menu flex-container">
               <div className="brand flex-item">
-                <a href="#"><img src={logo} alt="'jt' brand mark"/></a>
+                <a><img src={logo} alt="'jt' brand mark"/></a>
               </div>
               <div className="links flex-item">
                 <ul>

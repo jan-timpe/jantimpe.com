@@ -77,44 +77,44 @@ export default class App extends Component {
         <div id="projects" className="dark-blue-bg">
           <div className="center container">
             <h2>projects</h2>
-            <p>Essentially all of my personal and freelance projects involve baseball; it's a game of statistics and I love statistics. Various other mini-projects and academic projects exist <a href="https://github.com/jan-timpe" target="_blank">on my Github</a>.</p>
+            <p>Essentially all of my personal and freelance projects involve baseball; it's a game of statistics and I love statistics. Various other mini-projects and academic projects exist <a href="https://github.com/jan-timpe" target="_blank" rel="noopener noreferrer">on my Github</a>.</p>
             <br/>
 
             <div className="flex-container container">
               <div className="project-card flex-item flex-container">
-                <a href="https://pitchcastapp.com/" target="_blank">
+                <a href="https://pitchcastapp.com/" target="_blank" rel="noopener noreferrer">
                   <img src={pitchcast_logo} className="logo flex-item" alt="PitchCast logo"/>
                 </a>
                 <div className="details flex-item">
-                  <a href="https://pitchcastapp.com/" target="_blank" className="title">pitchcast</a>
+                  <a href="https://pitchcastapp.com/" target="_blank" rel="noopener noreferrer" className="title">pitchcast</a>
                   <p className="description">A pitching chart and progress tracker for baseball and softball. An ongoing personal project (my baby)</p>
                 </div>
               </div>
 
               <div className="project-card flex-item flex-container">
-                <a href="https://vtoolapp.com/" target="_blank">
+                <a href="https://vtoolapp.com/" target="_blank" rel="noopener noreferrer">
                   <img src={vtool_logo} className="logo flex-item" alt="Five Tool Showcases logo"/>
                 </a>
                 <div className="details flex-item">
-                  <a href="https://vtoolapp.com/" target="_blank" className="title">five tool</a>
+                  <a href="https://vtoolapp.com/" target="_blank" rel="noopener noreferrer" className="title">five tool</a>
                   <p className="description">App developed for a series of elite baseball tournaments across several states, including Arkansas, Texas, and Oklahoma.</p>
                 </div>
               </div>
               <div className="project-card flex-item flex-container">
-                <a href="http://nlbbaseball.com/" target="_blank">
+                <a href="http://nlbbaseball.com/" target="_blank" rel="noopener noreferrer">
                   <img src={nlb_logo} className="logo flex-item" alt="Next Level Baseball logo"/>
                 </a>
                 <div className="details flex-item">
-                  <a href="http://nlbbaseball.com/" target="_blank" className="title">next level baseball</a>
+                  <a href="http://nlbbaseball.com/" target="_blank" rel="noopener noreferrer" className="title">next level baseball</a>
                   <p className="description">Website and custom facility scheduling system developed for a growing Springdale-based small business.</p>
                 </div>
               </div>
               <div className="project-card flex-item flex-container">
-                <a href="https://ontimebaseball.com/" target="_blank">
+                <a href="https://ontimebaseball.com/" target="_blank" rel="noopener noreferrer">
                   <img src={ontime_logo} className="logo flex-item" alt="OnTime Baseball logo"/>
                 </a>
                 <div className="details flex-item">
-                  <a href="https://ontimebaseball.com/" target="_blank" className="title">on time baseball</a>
+                  <a href="https://ontimebaseball.com/" target="_blank" rel="noopener noreferrer" className="title">on time baseball</a>
                   <p className="description">A batter timing app designed to help hitters improve timing by associating visual cues with audio training.</p>
                 </div>
               </div>
@@ -127,10 +127,10 @@ export default class App extends Component {
           <h2>contact</h2>
 
           <div className="social">
-            <a href="https://www.linkedin.com/in/jantimpe" target="_blank">
+            <a href="https://www.linkedin.com/in/jantimpe" target="_blank" rel="noopener noreferrer">
               <img src={linkedin_logo} alt="LinkedIn logo"/>
             </a>
-            <a href="https://github.com/jan-timpe" target="_blank">
+            <a href="https://github.com/jan-timpe" target="_blank" rel="noopener noreferrer">
               <img src={github_logo} alt="GitHub logo"/>
             </a>
           </div>

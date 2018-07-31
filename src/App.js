@@ -5,6 +5,7 @@ import pitchcast_logo from './img/pitchcast_300x300.jpg'
 import nlb_logo from './img/nlb_300x300.jpeg'
 import vtool_logo from './img/vtool_300x300.jpeg'
 import ontime_logo from './img/ontime_300x300.jpeg'
+import lift_logo from './img/lift@0.5x.png'
 import linkedin_logo from './img/linkedin.png'
 import github_logo from './img/github.png'
 import './App.css'
@@ -76,6 +77,12 @@ export default class App extends Component {
               url: 'https://ontimebaseball.com',
               logo: ontime_logo,
               description: 'A batter timing app designed to help hitters improve timing by associating visual cues with audio training.'
+            },
+            {
+              title: 'lift',
+              url: 'https://lift.jantimpe.com',
+              logo: lift_logo,
+              description: 'My first progressive web app, an offline-only lift tracker built in React and deployed to GitHub Pages'
             }
           ]}/>
         </Section>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../img/jt-mark.svg'
+
 
 export default class Header extends Component {
 

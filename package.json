@@ -1,6 +1,7 @@
 {
-  "name": "jan-timpe.github.io",
+  "name": "jan-timpe.com",
   "version": "0.1.0",
+  "homepage": "https://jantimpe.com",
   "private": true,
   "dependencies": {
     "react": "^16.4.1",

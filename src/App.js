@@ -9,33 +9,22 @@ import linkedin_logo from './img/linkedin.png'
 import github_logo from './img/github.png'
 import './App.css'
 
+
+import Header from './components/Header'
+
 export default class App extends Component {
   render() {
     return (
       <div>
-        <div className="header dark-blue-bg">
-          <div className="center">
-            <div className="menu flex-container">
-              <div className="brand flex-item">
-                <a><img src={logo} alt="'jt' brand mark"/></a>
-              </div>
-              <div className="links flex-item">
-                <ul>
-                  <li><a href="#about">about</a></li>
-                  <li><a href="#projects">projects</a></li>
-                  <li><a href="#contact">contact</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="header-message container">
-              <div>
-                <h1>Jan Timpe</h1>
-                <p>Software engineer, Fayetteville, AR</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        <Header logo={logo} links={[
+          { href: '#about', text: 'about' },
+          { href: '#projects', text: 'projects' },
+          { href: '#contact', text: 'contact' }
+        ]}>
+          <h1>Jan Timpe</h1>
+          <p>Software engineer, Fayetteville, AR</p>
+        </Header>
 
         <div id="about" className="purple-bg">
           <div className="center container">

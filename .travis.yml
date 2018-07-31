@@ -9,9 +9,11 @@ script:
   - yarn build
 deploy:
   provider: pages
+  target-branch: master
   skip-cleanup: true
   github-token: $github_token
   local-dir: build
   keep-history: true
+  fqdn: jantimpe.com
   on:
     branch: master

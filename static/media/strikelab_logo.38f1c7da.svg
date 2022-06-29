@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="212px" viewBox="0 0 212 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>splash</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#42B883" offset="0%"></stop>
+            <stop stop-color="#347474" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.1232247%" y1="-49.2281562%" x2="52.1232247%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD276" offset="0%"></stop>
+            <stop stop-color="#35495E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-31.2286118%" id="linearGradient-3">
+            <stop stop-color="#FF7E67" offset="0%"></stop>
+            <stop stop-color="#FFD276" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="splash" transform="translate(-44.000000, -44.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(149.906638, 149.906638) rotate(45.000000) translate(-149.906638, -149.906638) translate(43.906638, 43.906638)">
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="106.000613" cy="106" r="105.5"></circle>
+                <circle id="Oval" fill="url(#linearGradient-2)" cx="106.000613" cy="122.263456" r="75"></circle>
+                <circle id="Oval" fill="url(#linearGradient-3)" cx="107.414826" cy="140.648232" r="46"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

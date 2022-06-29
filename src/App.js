@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import logo from './img/jt-mark.svg'
 import dubya from './img/dubya.JPG'
-import pitchcast_logo from './img/pitchcast_300x300.jpg'
+import strikelab_logo from './img/strikelab_logo.svg'
 import nlb_logo from './img/nlb_300x300.jpeg'
-import vtool_logo from './img/vtool_300x300.jpeg'
+import fptv_logo from './img/fptv_logo.png'
 import ontime_logo from './img/ontime_300x300.jpeg'
 import lift_logo from './img/lift@0.5x.png'
 import linkedin_logo from './img/linkedin.png'
@@ -33,16 +33,9 @@ export default class App extends Component {
 
         <Section id="about" className="purple-bg">
           <h2>about</h2>
-            <p>I'm Jan, a web and mobile application developer. I graduated from the University of Arkansas in 2018 with a Bachelors of Science in Computer Science and a minor in Math. Currently, I work as an Associate Mobile Developer at J.B. Hunt. My life very heavily revolves around baseball, code, heavy metal, and lifting weights.</p>
+            <p>I'm Jan, a web and mobile application developer. I graduated from the University of Arkansas in 2018 with a Bachelors of Science in Computer Science and a minor in Math. Most recently, I was a test automation engineer at a small supply-chain startup, guiding the organization's agile transformation and implementation of automated tests as part of our continuous process. I have experience in developing cross-platform mobile applications, front-end and full-stack web applications, API-based services, and automated testing suites (including UI end-to-end tests and performance tests), as well as mentoring developers and establishing quality processes (including following agile methodologies, creating quality standards, documentating and testing software, and utilizing continuous integration/deployments for quick iterations). </p>
 
-            <LiftList lifts={[
-              { title: 'squat', value: 315 },
-              { title: 'bench press', value: 235 },
-              { title: 'overhead press', value: 145 },
-              { title: 'snatch', value: 165 },
-              { title: 'deadlift', value: 385 },
-              { title: 'clean and jerk', value: 215 },
-            ]}/>
+            <p>When I'm not hiding behind my computer screen, you can find me riding my bike or blasting heavy metal in my car.</p>
 
             <iframe title="Spotify player" src="https://open.spotify.com/embed/user/1237272048/playlist/6uj7glncPio4gEztTyM7pA" frameborder="0" allowtransparency="true" className="spotify-player"></iframe>
         </Section>
@@ -55,16 +48,16 @@ export default class App extends Component {
 
           <ProjectList projects={[
             {
-              title: 'pitchcast',
-              url: 'https://pitchcastapp.com/',
-              logo: pitchcast_logo,
-              description: 'A pitching chart and progress tracker for baseball and softball. An ongoing personal project (my baby)'
+              title: 'strikelab',
+              url: 'https://strikelab.io/',
+              logo: strikelab_logo,
+              description: 'A pitching chart and progress tracker for baseball and softball. An ongoing personal project (my baby).'
             },
             {
-              title: 'five tool',
-              url: 'https://vtoolapp.com/',
-              logo: vtool_logo,
-              description: 'App developed for a series of elite baseball tournaments across several states, including Arkansas, Texas, and Oklahoma.'
+              title: 'fayetteville public television',
+              url: 'https://login.faypublic.tv/',
+              logo: fptv_logo,
+              description: 'System developed for local nonprofit, allows members to register for classes and check out TV studio equipment to create their own media projects.'
             },
             {
               title: 'next level baseball',
